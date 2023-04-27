@@ -1,0 +1,21 @@
+{
+    "name": "edwin/my-framework",
+    "description": "this is my new framework from php",
+    "autoload": {
+        "psr-4": {
+            "Edwin\\MyFramework\\": "src/",
+            "Lib\\": "libraries/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Edwin Diradinata",
+            "email": "edwindiradinata@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6",
+        "symfony/routing": "^6.2",
+        "larapack/dd": "^1.1"
+    }
+}
